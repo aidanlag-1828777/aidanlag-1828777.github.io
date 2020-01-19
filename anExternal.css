@@ -1,0 +1,46 @@
+/* Our CSS Document */
+
+	body {
+		background-color: lightblue;
+	}
+	
+	.Hardenimg {
+		height: 50px;
+		width: 50px;
+	}
+	
+	#memecontainer {
+		position: relative
+	}
+
+	#Hardenmeme {
+		width: 100%;
+		height: auto;
+		margin: 20 px;
+	}
+
+	#memetext {
+		left: 0;
+		border-style: dotted;
+		border-width: thin;
+		text-shadow: 5px 5px 5px purple;
+		position:absolute;
+		text-align:center;
+		top: 50%;
+		width: 100%;
+		color: white;
+		}
+		
+		#floatedbasketball {
+			float: right;
+			background: #73AD21;
+		 	padding: 20px;
+			width: 200px;
+			height 150px;
+			border-radius: 25px;
+		}
+		
+		#basletballImg {
+			width: 150px;
+			
+		}

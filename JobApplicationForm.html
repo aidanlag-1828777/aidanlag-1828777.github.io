@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"
+	<meta name="viewport" content="width=device width, initial scale=1.0">
+	<meta http-equiv_"X-UA-Compatible" content="ie-edge">
+	<title>Padawan Job Application</title>
+</head>
+<body>
+	<div="mainContent">
+		<h1>Padawan Job Application</h1>
+		<p> If you are interested in developing your lightsaber skills and your focus to someday become a Jedi Master, please fill out this application </p><br/>
+		<div class-"formClass">
+				<form name="input" action="https://formspree.io/mgeaqkal" method="post">
+					<fieldset>
+						<legend>Basic Info</legend>
+						<label>Full Name:</label> <input type="text" name="name"/><br/>
+						<label>Email:</label> <input type="email" name="_replyto"/><br/>
+						<label>What is your species?</label> <br/>
+						<input type="radio" name="species" value="Human"> Human<br/> <input type="radio" name="species" value="Wookie"> Wookie<br> <input type="radio" name="species" value="Cerean"> Cerean<br/> <input type="radio" name="species" value="Sullustan"> Sullustan <br/> <input type="radio" name="species" value="Bothan"> Bothan <br/><br/><br/>
+						<label>Which planet are you from?</label><br/>
+						<select name="planet"> 
+							<option value="Endor">Endor</option> <option value="Naboo">Naboo</option> <option value="Coruscant">Coruscant</option> <option value="Aheh-To">Aheh-To</option> <option value="Coruscant">Coruscant</option> <option value="Bespin">Bespin</option> 
+						</select><br/><br/><br/>
+					
+					</fieldset>
+					
+					<fieldset>
+						<legend>Essay</legend>
+						<label>Please tell us why you want to become a Jedi.  What makes you unique?</label> <br/> <textarea name="essay">Text here</textarea><br/><br/><br/>
+					</fieldset>
+					
+					<fieldset>
+						<legend>More Info</legend>
+						<label>What do you want to learn?</label><br/>
+						<input type="checkbox" name="skills" value="Lightsaber Skills">Lightsaber Skills<br/> <input type="checkbox" name="skills" value="The Force">The Force<br/> <input type="checkbox" name="skills" value="How to Make Jedi Robes">How to Make Jedi Robes<br/> 
+						What color lightsaber would you like? <br/>
+						<select name="lightsaberColorPreference">
+  							<optgroup label="Blue">
+    							<option value="Luke">Luke</option>
+   								<option value="saab">Obi-Wan</option>
+  							</optgroup>
+ 							<optgroup label="Green">
+  								<option value="Yoda">Yoda</option>
+  								<option value="Anakin">Anakin</option>
+  							</optgroup>
+							<optgroup label="Purple">
+  								<option value="Mace Windu">Mace Windu</option>
+  							</optgroup>
+						</select>
+						<input type="submit" value="Send">
+					</fieldset>
+			</form>
+	</div>
+</body>
+</html>
+
+
